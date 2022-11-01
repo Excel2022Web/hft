@@ -279,7 +279,7 @@ nav{
     padding: 10px 30px;
     text-decoration: none;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 0px;
     background: rgb(37 28 195 / 41%);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(0.5px);
@@ -342,7 +342,7 @@ nav{
     height: 100%;
 
 }
-.about-left p{
+.about-box p{
     padding: 0px 60px 60px 60px;
     font-size: 13px;
     text-indent: 0px;
@@ -352,6 +352,7 @@ nav{
 
 
 }
+
 .about-left h2{
     padding: 20px 66px 20px 66px;
     font-size: 40px;
@@ -401,9 +402,9 @@ nav{
 
 .big-text {
 font-weight: bold;
-  font-size: 1.2rem;
-  line-height: 1;
-  margin: 0.5rem 1.8rem;
+  font-size: 1.7rem;
+  line-height: 0.6;
+  margin: 0.2rem 1.8rem;
   color: #fff;
   font-family: "Poppins", sans-serif;
 
@@ -1236,7 +1237,7 @@ font-weight: bold;
   width: 200px;
 }
 .time{
-height: 85px;
+height: 70px;
   width: 45%;
   background: #79839a7a;
   border-bottom: 1px solid var(--text-white);
@@ -1246,5 +1247,6 @@ height: 85px;
   -webkit-clip-path: polygon(16px 0, 100% 0, 100% 100%, 0 100%, 0 16px);
   clip-path: polygon(38px 0, 109% 0, 93% 100%, 0 100%, 0 38px);
   padding-right: 10px;
+  padding-top: 22px;
   }
   

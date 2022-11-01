@@ -289,7 +289,9 @@ nav{
     transition: .5s;
        
 }
-
+.time-div{
+  display: flex;
+}
 
 .intro a:hover{
   background: rgb(199 199 199 / 18%);

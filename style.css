@@ -329,6 +329,10 @@ nav{
     text-align: center;
     color: #fff;
     font-family: "Poppins", sans-serif;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
 
 
 }
@@ -421,7 +425,7 @@ font-weight: bold;
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(1px);
     height: 80%;
-    width: 100%;
+    width: 90%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -429,6 +433,9 @@ font-weight: bold;
     margin-top: 0px;
     margin-bottom: 50px;
     border-radius: 20px;
+    -webkit-clip-path: polygon(16px 0, 100% 0, 100% 100%, 0 100%, 0 16px);
+      clip-path: polygon(7% 0%, 100% 0px, 100% 100%, 0px 100%, 0 62px);
+      padding-right: 10px;
 }
 .left-content-1{
     flex-basis: 70%;
@@ -1228,3 +1235,16 @@ font-weight: bold;
 .sponser-img img{
   width: 200px;
 }
+.time{
+height: 85px;
+  width: 45%;
+  background: #79839a7a;
+  border-bottom: 1px solid var(--text-white);
+  font-size: 24px;
+  color: var(--off-white);
+  text-align: end;
+  -webkit-clip-path: polygon(16px 0, 100% 0, 100% 100%, 0 100%, 0 16px);
+  clip-path: polygon(38px 0, 109% 0, 93% 100%, 0 100%, 0 38px);
+  padding-right: 10px;
+  }
+  

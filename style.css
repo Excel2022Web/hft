@@ -52,7 +52,7 @@ nav{
     
 }
 .logo{
-    width: 15vh;
+    width: 16vh;
     padding: 0px;
     margin-right: 16.5px;
     margin-left: 16px;
@@ -90,7 +90,16 @@ nav{
   width: 20px;
   margin: 0px 7px -4px 0px;
 }
-
+#dev::before{
+  /* margin: 0px;
+    content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 80px solid white;
+      border-left: 80px solid red;
+      width: 0; */
+}
 .nav-button {
     transition: all 0.3s ease;
   }
@@ -137,7 +146,7 @@ nav{
   .container{
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: #00061c;
     /* scroll-snap-type: y mandatory;
     overflow-y: scroll; */
@@ -157,12 +166,13 @@ nav{
 
 }
 .container .section:nth-child(1){
-    background: url("image/bg.jpg");
+    background: url("image/bg12.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 .container-2 .section:nth-child(1){
-    background: url("image/bg5.jpg");
+    background: url("image/bg12.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -218,9 +228,8 @@ nav{
     width: 100%;
 }
  .content1{
-    position: absolute;
-    background-image: url("image/bg2.png");
-    height: 100%;
+    position: relative;
+    min-height: 0vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -229,14 +238,32 @@ nav{
 }
 .intro{
     text-align: center;
+    background-size: cover;
     width: 100%;
-    margin-top: 9vh;
-    position: absolute;
+    margin-top: 3vh;
+    position: relative;
+    background-position: center;
+    top: 50%;
+      transform: translate(0, -50%);
 
     
 }
-.intro img{
-    width: 35%;
+.bg13-content{
+  position: absolute;
+  width: 100%;
+  margin-top: 130px;
+
+}
+.bg13{
+  position: absolute;
+  width: 100%;
+}
+.bg13 img{
+
+  max-width: 170vh;
+}
+.bg13-content img{
+    width: 32%;
 }
 .intro h3{
     font-weight: 400;
@@ -250,15 +277,17 @@ nav{
     text-decoration: none;
     color: #fff;
     border-radius: 10px;
-    background: rgb(0 37 255 / 18%);
+    background: rgb(37 28 195 / 41%);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(0.5px);
     -webkit-backdrop-filter: blur(1px);
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
     transition: .5s;
-
+       
 }
+
+
 .intro a:hover{
   background: rgb(199 199 199 / 18%);
   transition: .5s;
@@ -278,12 +307,10 @@ nav{
     position: relative;
     display: flex;
     width: 100%;
-
     flex-wrap: wrap;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("image/bul2.png");
 
 
     
@@ -366,12 +393,12 @@ nav{
 }
 
 .big-text {
-    font-weight: bold;
-    font-size: 1.8rem;
-    line-height: 1;
-    margin: .9rem 1.8rem;
-    color: #fff;
-    font-family: "Poppins", sans-serif;
+font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1;
+  margin: 0.5rem 1.8rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -391,14 +418,13 @@ nav{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(1px);
     height: 80%;
-    width: 94%;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 70px;
     margin-bottom: 50px;
-    left: 6%;
     border-radius: 20px;
 }
 .left-content-1{

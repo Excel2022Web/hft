@@ -1275,3 +1275,9 @@ height: 70px;
 .footer p{
   color: #fff;
 }
+#img15{
+  display: block;
+}
+#img16{
+  display: none;
+}

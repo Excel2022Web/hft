@@ -383,20 +383,37 @@
     font-size: 80%;
     margin-top: 21px;
 }
-}
 .countdown-container p {
     padding: 0px 15px 0px 15px;
 }
+
 .big-text {
     font-size: 1rem;
     margin: 0.5rem 0.5rem;
 }
+
 .footer img {
     padding: 20px;
     margin: 10px 30px;
 
 
 }
-.footer{
+
+.footer {
     flex-direction: column;
+}
+
+#img15 {
+    display: none;
+
+}
+
+#img16 {
+    display: block;
+
+}
+.intro img{
+    width: 100%;
+    height: 100%;
+}
 }

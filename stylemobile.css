@@ -428,6 +428,7 @@
 .imgbox img {
     width: 60%;
     margin-top: 2vh;
+    margin-bottom: 25px;
 }
 .intro{
     margin-top: 0vh;
@@ -437,6 +438,18 @@
 }
 .countdown-el p {
     font-size: 18px;
+
+}
+.scroller span {
+    font-size: 10px;
+}
+.bg13-content{
+    margin-top: 75px;
+}
+#mascot{
+    display: inline;
+    width: 75%;
+    margin-top: -18px;
 
 }
 }

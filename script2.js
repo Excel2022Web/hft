@@ -34,7 +34,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const hackDay = "19 nov 2022";
+const hackDay = "18 dec 2022";
 
 function countdown() {
     const newYearsDate = new Date(hackDay);

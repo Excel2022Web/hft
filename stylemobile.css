@@ -25,6 +25,11 @@
     .nav-middle {
     
     }
+        .container-2 .section:nth-child(1) {
+            background: url("image/bg12.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
     nav .fa{
         display: block;
         color: rgb(0, 0, 0);
@@ -83,8 +88,8 @@
 
 }
 .time {
-    height: 64px;
-    width: 96%;
+    height: 48px;
+    width: 87%;
 }
 
 .big-text {
@@ -95,6 +100,7 @@
     font-size: 0.5rem;
 
 }
+
 .countdown-container {
 
     margin-top: -11px;
@@ -384,12 +390,15 @@
     margin-top: 21px;
 }
 .countdown-container p {
-    padding: 0px 15px 0px 15px;
+    padding: 0px 7px 0px 7px;
 }
 
 .big-text {
     font-size: 1rem;
-    margin: 0.5rem 0.5rem;
+    margin: .3em 0.5rem 0rem .5rem;
+}
+.countdown-el span {
+    font-size: 9px;
 }
 
 .footer img {
@@ -422,5 +431,12 @@
 }
 .intro{
     margin-top: 0vh;
+}
+.time{
+    clip-path: polygon(24px 0, 116% 0, 93% 100%, 0 100%, 0 23px);
+}
+.countdown-el p {
+    font-size: 18px;
+
 }
 }

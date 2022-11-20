@@ -152,6 +152,7 @@
 }
 .content2 {
     flex-direction: column;
+    background: linear-gradient(90deg, rgba(2, 0, 3, 1) 0%, rgb(5 0 29 / 0%) 60%, rgb(0 0 27 / 0%) 100%);
 
 }
 .right-image-1 img {
@@ -428,7 +429,7 @@
 .imgbox img {
     width: 60%;
     margin-top: 2vh;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 .intro{
     margin-top: 0vh;
@@ -448,8 +449,8 @@
 }
 #mascot{
     display: inline;
-    width: 75%;
-    margin-top: -18px;
+    width: 50%;
+    margin-top: 0px;
 
 }
 }

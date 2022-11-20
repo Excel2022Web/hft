@@ -1242,7 +1242,7 @@ font-weight: bold;
 }
 .time{
 height: 70px;
-  width: 35%;
+  min-width: 35%;
   background: #79839a59;
   font-size: 24px;
   text-align: end;

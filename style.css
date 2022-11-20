@@ -1285,3 +1285,17 @@ height: 70px;
   width:35%;
   margin-top: 2vh;
 }
+.contact-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3px;
+}
+.contact-icon img
+{
+
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}

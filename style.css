@@ -18,7 +18,9 @@ html{
 
 
 }
-
+#particles-js{
+  max-height: 100vh;
+}
 html::-webkit-scrollbar-thumb{
   background-color: #d0d0d085;
   border-radius: 10px;
@@ -543,7 +545,6 @@ font-weight: bold;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("image/prize1.png");
 
 }
 .why-heading,.why-heading-2,.why-heading-22,.why-heading-3{
@@ -640,7 +641,7 @@ font-weight: bold;
   box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
   backdrop-filter: blur(18.5px);
   -webkit-backdrop-filter: blur(1px);
-  border-radius: 20px;
+  border-radius: 15px;
   margin: 20px;
 }
 .why-box-1{
@@ -659,9 +660,11 @@ font-weight: bold;
 .view-img{
     flex-basis: 15%;
     padding: 20px 23px;
-    border-radius: 50%;
+    border-radius: 0%;
     margin-top: -40px;
     background: #10354f6e;
+      -webkit-clip-path: polygon(16px 0, 100% 0, 100% 100%, 0 100%, 0 16px);
+    clip-path: polygon(7% 0%, 100% 0px, 100% 100%, 0px 100%, 7 62px);
 
 }
 .view-img-1{
@@ -800,13 +803,12 @@ font-weight: bold;
   .timer-section .timer .step:nth-child(odd) {
     transform: translateX(100%);
     border-left: 2px solid rgb(155, 155, 155);
-    border-radius: 0 24px 24px 0;
+    
 
   }
   .timer-section .timer .step:nth-child(even) {
     border-right: 2px solid rgb(206, 206, 206);
-    border-radius: 24px 0px 0px 24px;
-
+    
   }
   
   .timer-section .timer .step > span {
@@ -1241,10 +1243,8 @@ font-weight: bold;
 .time{
 height: 70px;
   width: 45%;
-  background: #79839a7a;
-  border-bottom: 1px solid var(--text-white);
+  background: #79839a59;
   font-size: 24px;
-  color: var(--off-white);
   text-align: end;
   -webkit-clip-path: polygon(16px 0, 100% 0, 100% 100%, 0 100%, 0 16px);
   clip-path: polygon(38px 0, 109% 0, 93% 100%, 0 100%, 0 38px);

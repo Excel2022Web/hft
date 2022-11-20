@@ -58,17 +58,16 @@
     background-attachment: fixed;
 }
 .intro{
-    text-align: center;
+    /* text-align: center;
     width: 100%;
     margin-top: 9vh;
-    position: absolute;
+    position: absolute; */
 
 
 }
 .content1{
     position: absolute;
-    background-image: url("image/bg2m.png");
-    height: 100vh;
+    height: 0vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,6 +81,10 @@
     font-size: 12px;
     margin-top: 10px;
 
+}
+.time {
+    height: 64px;
+    width: 96%;
 }
 
 .big-text {
@@ -380,4 +383,11 @@
     font-size: 80%;
     margin-top: 21px;
 }
+}
+.countdown-container p {
+    padding: 0px 15px 0px 15px;
+}
+.big-text {
+    font-size: 1rem;
+    margin: 0.5rem 0.5rem;
 }

@@ -64,6 +64,8 @@ setInterval(countdown, 1000);
 
 
 var navLinks = document.getElementById("nav-links");
+var imgMain = document.getElementById("img15");
+
 let width = screen.width;
 
 function showmenu(){
@@ -78,3 +80,9 @@ function hidemenu(){
    
 
 }
+
+    if ( width < 764 ){
+        imgMain.src = "image/bg15.png";
+     }
+   
+

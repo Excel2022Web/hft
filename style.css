@@ -264,8 +264,8 @@ nav{
   width: 100%;
 }
 .bg13 img{
-
-  max-width: 170vh;
+    max-width: 90%;
+      max-height: 80vh;
 }
 .bg13-content img{
     width: 32%;

@@ -1281,3 +1281,6 @@ height: 70px;
 #img16{
   display: none;
 }
+.imgbox img{
+  width:70%
+}

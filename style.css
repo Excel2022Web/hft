@@ -1019,7 +1019,7 @@ font-weight: bold;
   border-right: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 0px;
   align-items: center;
 
 }
@@ -1033,7 +1033,7 @@ font-weight: bold;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 0px;
     align-items: center;
 }
 .bo-box4 {
@@ -1047,7 +1047,7 @@ font-weight: bold;
 
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 0px;
   align-items: center;
 }
 .bo-box5 {
@@ -1060,7 +1060,7 @@ font-weight: bold;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 0px;
   align-items: center;
 }
 .bo-box2{
@@ -1074,7 +1074,7 @@ font-weight: bold;
   border-right: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 0px;
   align-items: center;
 
 }

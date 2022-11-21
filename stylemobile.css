@@ -54,7 +54,7 @@
     height: 100vh;
 }
 .logo {
-    width: 11vh;
+    width: 16vh;
 }
 
 .container .section:nth-child(1){
@@ -456,8 +456,18 @@
 .sponser-img{
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 .sponser-content{
         flex-direction: column;
+}
+.sponser-img img{
+    width: 210px;
+  
+
+}
+.sponser-boxes{
+    gap: 20px;
+
 }
 }

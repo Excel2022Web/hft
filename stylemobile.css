@@ -453,4 +453,11 @@
     margin-top: 0px;
 
 }
+.sponser-img{
+    display: flex;
+    flex-direction: column;
+}
+.sponser-content{
+        flex-direction: column;
+}
 }

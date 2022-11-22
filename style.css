@@ -457,6 +457,7 @@ font-weight: bold;
 }
 .right-image-1 img{
     width: 77vh;
+    pointer-events: none;
 }
 .content3{
     position: relative;

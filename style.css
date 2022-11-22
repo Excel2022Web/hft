@@ -128,10 +128,10 @@ nav {
     font-weight: 200;
     color: #fff;
     text-transform: uppercase;
-    pointer-event: none;
+    /* pointer-events: none; */
     transition: transform 0.1s linear;
     letter-spacing: 1.5px;
-
+    
   }
   
   .cursor {

@@ -6,17 +6,18 @@
     padding: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 body,html{
-    font-family: "Poppins", sans-serif;
-
-
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 html{
-    scroll-behavior: smooth;
-    scrollbar-width: thin;
-    background: #000000;
-
-
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  background: #000000;
 }
 #particles-js{
   max-height: 100vh;
@@ -43,7 +44,7 @@ a{
   position: fixed;
   opacity: .7;
 } */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -675,6 +676,7 @@ font-weight: bold;
 }
 .view-img img{
     width: 35px;
+    pointer-events: none;
 }
 .view-img-1 img{
   width: 80px;
@@ -961,6 +963,7 @@ font-weight: bold;
 .prize-content1 .prize-content-img img{
   width: 84px;
   margin-top: -6px;
+  pointer-events: none;
 }
 #prize-image img{
   width: 92px;
@@ -1360,8 +1363,16 @@ font-weight: bold;
   gap: 30px;
   justify-content: center;
 }
+
+.sponser-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
 .sponser-img img{
-  width: 240px;
+  width: 220px;
 }
 .time{
 height: 70px;
@@ -1376,7 +1387,7 @@ height: 70px;
   }
   
 .footer{
-  height: 100%;
+  min-height: 200px;
   width: 100%;
   background: rgb(11 0 56 / 77%);
   display: flex;
@@ -1385,7 +1396,7 @@ height: 70px;
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 0px;
+  margin-top: 1.25rem;
   border-top: 2px solid rgb(255 255 255 / 27%);
 
 }
@@ -1400,6 +1411,7 @@ height: 70px;
 }
 #img15{
   display: inline;
+  pointer-events: none;
 }
 #img16{
   display: none;
@@ -1421,7 +1433,91 @@ height: 70px;
   width: 20px;
   height: 20px;
   margin: 10px;
+  pointer-events: none;
 }
 #mascot{
   display: none;
+}
+
+
+.footer .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  color: #fff;
+  height: 100%;
+}
+
+.footer .content .social {
+  display: flex;
+  gap: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.footer .content .social i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #ffffff;
+}
+
+.footer .content .social i:hover {
+  color: #080031;
+  background: #ffffff;
+
+}
+
+
+.footer .content .text {
+  font-weight: 500;
+  margin-top: auto;
+  margin-bottom: 0.5rem;
+}
+
+.footer .content .text i {
+  width: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #408baf;
+}
+
+
+@media (max-width: 700px) {
+  .footer .content {
+      gap: 0.3rem;
+      font-size: 0.8rem;
+  }
+
+  .footer .content .social {
+      gap: 0.4rem;
+      font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 540px) {
+
+}
+
+@media (max-width: 440px) {
+  .footer {
+      flex-wrap: wrap;
+      padding: 1.5rem 1.2rem;
+      gap: 1.5rem;
+  }
+
+  .footer .content {
+      order: 2;
+      gap: 0.3rem;
+      font-size: 0.8rem;
+      margin: auto auto 0 auto;
+  }
 }

@@ -619,6 +619,7 @@ font-weight: bold;
 }
 .why-content-3 {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   top: 5vh;
   align-items: center;

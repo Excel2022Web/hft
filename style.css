@@ -138,7 +138,7 @@ nav {
     pointer-events: none;
     position: fixed;
     padding: 0.4rem;
-    background-color: #408baf;
+    background-color: #10354f;
     border-radius: 50%;
     mix-blend-mode: difference;
     transition: transform 0.3s ease;
@@ -368,25 +368,49 @@ nav {
     top:20px;
 
 }
-.scroller {
-    height: 1.2em;
-    line-height: 1.2em;
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-    text-align: center;
 
+.scroller{
+  color: #fff;
+  height: 30px;
+  overflow: hidden;
+  transform: translateY(20px);
+}
+.scroller_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: scroll 4s ease-in-out infinite;
+}
+.scroller_box div{
+  flex-shrink: 0;
+  width: 80px;
+  height: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+@keyframes scroll{
+  0%{
+    transform: translateY(0);
   }
-  .scroller > span {
-    position: relative;
-    top: 0;
-    animation: slide 5s infinite;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
-    margin: 0%;
-
+  33%{
+    transform: translateY(-30px);
   }
+  66%{
+    transform: translateY(-60px);
+  }
+  99.9%{
+    transform: translateY(-90px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
   @keyframes slide {
     0% {
       top: 0;
@@ -647,8 +671,8 @@ font-weight: bold;
   margin: 20px;
 }
 .why-box-1{
-  width: 240px;
-  height: 170px;
+  width: 260px;
+  height: 190px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -712,7 +736,7 @@ font-weight: bold;
 }
 .view-content-1 p{
   margin: 4px 10px 0px 10px;
-  font-size: 11px;
+  font-size: 13px;
   top: 0px;
 
 }
@@ -1429,7 +1453,7 @@ height: 70px;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  margin-top: 3px;
+  margin-top: 8px;
 }
 .contact-icon img
 {

@@ -81,8 +81,3 @@ function hidemenu(){
 
 }
 
-    if ( width < 764 ){
-        imgMain.src = "image/bg15.png";
-     }
-   
-

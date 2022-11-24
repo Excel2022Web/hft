@@ -1448,10 +1448,33 @@ height: 70px;
 #img16{
   display: none;
 }
-.imgbox img{
+
+.imgbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hft__logo {
   width: 35%;
   margin-top: 2vh;
 }
+
+.keyvalue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.keyvalue__logo {
+  width: 150px !important;
+}
+
 .contact-icon{
   display: flex;
   flex-direction: row;

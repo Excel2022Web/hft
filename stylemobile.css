@@ -54,6 +54,11 @@
     width: 16vh;
 }
 
+.bg13 img {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
 .container .section:nth-child(1){
     background: url("image/bg12.jpg");
     background-size: cover;

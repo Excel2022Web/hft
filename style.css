@@ -149,6 +149,10 @@ nav {
   }
 
 
+.apply-button {
+  width: 250px !important;
+}
+
   .container{
     position: relative;
     width: 100%;

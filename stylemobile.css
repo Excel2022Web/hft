@@ -1,4 +1,4 @@
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 800px) {
 
     .container-2 .section:nth-child(1) {
         background: rgb(0,0,0);
@@ -20,16 +20,13 @@
     }
     .nav-button{
         margin-top: 10px;
-        onclick:"hidemenu()";
+        /* onclick:"hidemenu()"; */
     }
-    .nav-middle {
-    
+    .container-2 .section:nth-child(1) {
+        background: url("image/bg12.jpg");
+        background-size: cover;
+        background-attachment: fixed;
     }
-        .container-2 .section:nth-child(1) {
-            background: url("image/bg12.jpg");
-            background-size: cover;
-            background-attachment: fixed;
-        }
     nav .fa{
         display: block;
         color: rgb(0, 0, 0);
@@ -62,14 +59,12 @@
     background-size: cover;
     background-attachment: fixed;
 }
-.intro{
-    /* text-align: center;
+/* .intro{
+    text-align: center;
     width: 100%;
     margin-top: 9vh;
-    position: absolute; */
-
-
-}
+    position: absolute;
+} */
 .content1{
     position: absolute;
     height: 0vh;

@@ -22,8 +22,8 @@
         display: none;
         margin-top: 0;
         position: fixed;
-        background: rgba(2, 41, 70, 0.153);
-        backdrop-filter: blur(5.5px);
+        background: rgba(2, 41, 70, 0.953);
+        /* backdrop-filter: blur(5.5px); */
         height: 100vh;
         width: 200px;
         top: 0;

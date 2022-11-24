@@ -441,7 +441,7 @@
     .hft__logo {
         width: 65% !important;
         margin-top: 2vh;
-        margin-bottom: 25px;
+        margin-bottom: 0px;
     }
     .keyvalue {
         font-size: 0.9rem;
@@ -459,8 +459,16 @@
         font-size: 18px;
 
     }
+        .imgbox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 0px;
+        }
     .bg13-content{
-        margin-top: 75px;
+        margin-top: 50px;
     }
     #mascot{
         display: inline;

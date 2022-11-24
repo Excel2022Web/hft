@@ -152,7 +152,7 @@ nav {
   .container{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 76vh;
     background: #00061c;
     /* scroll-snap-type: y mandatory;
     overflow-y: scroll; */

@@ -431,10 +431,12 @@
     margin-top: 2vh;
     margin-bottom: 25px;
 }
+.keyvalue {
+    font-size: 0.9rem;
+}
 .keyvalue__logo {
     width: 120px !important;
-    font-size: 0.9rem;
-  }
+}
 .intro{
     margin-top: 0vh;
 }

@@ -1003,7 +1003,7 @@ font-weight: bold;
   margin-left: -12px;
   text-align: center;
   color: #fff;
-  margin: 50px 10px;
+  margin: 30px 10px;
 
 }
 .prize-content-text h3{
@@ -1500,6 +1500,10 @@ height: 70px;
   width: 80px !important;
 }
 
+.little_text {
+  font-size: 0.7rem;
+  margin-top: 0.125rem;
+}
 
 .footer .content {
   display: flex;

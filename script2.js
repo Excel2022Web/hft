@@ -47,10 +47,10 @@ function countdown() {
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    daysEl.innerHTML = days;
-    hoursEl.innerHTML = formatTime(hours);
-    minsEl.innerHTML = formatTime(mins);
-    secondsEl.innerHTML = formatTime(seconds);
+    daysEl.innerHTML = 0;
+    hoursEl.innerHTML = 0;
+    minsEl.innerHTML = 0;
+    secondsEl.innerHTML = 0;
 }
 
 function formatTime(time) {
